@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+}
+
+[type='checkbox'] {
+    display: none; 
+}
+
+.btn-group label:focus {
+    background-color: rgb(150, 20, 11);
+
+}
+
+.btn-group label:active {
+    background-color: rgb(150, 20, 11);
+}
+
+.container-fluid {
+    min-width: fit-content!important;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.nopad{
+    padding: 0;
+}
+
+.nopad .content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.nopad .content span{
+    color: rgb(173, 173, 173);
+}
+
+.nopad .content .data{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: yellow;
+}
+
+div{
+    display: block;
+}
+
+.borderr {
+    border-bottom: 1px solid coral;
+    padding-bottom: 20px;
+}
+
+.screen{
+    width: 108%;
+    padding: 10px 0px;
+    background-color: #e7e7e7;
+    margin: 15px auto;
+    text-align: center;
+    font-weight: bold;
+    color: #080808;
+}
+
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-indent: initial;
+}
+
+.price{
+    text-align: center;
+    color: beige;
+}
+
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.seats {
+    width:fit-content
+}
+
+.seat-wrapper button{
+    background: url(../img/seat.png);
+    background-size: cover;
+    border: none;
+    height: 43px;
+    width: 43px;
+    float: left;
+    margin: 6px 3px;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.seat-wrapper .btn-label{
+    background: transparent;
+    color: beige;
+    font-size: 25px;
+    user-select: none;
+
+}
+
+.seat-wrapper .btn-seat{
+    color: beige;
+    font-size: 20px;
+
+
+}
+
+.section2{
+    background-color:rgb(43, 43, 43);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.paymentcon{
+    border-top: 1px solid coral;
+    border-bottom: 1px solid coral;
+    padding-bottom: 30px;
+}
+
+.paymentcon label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+
+}
+
+.section3{
+    background-color:rgb(43, 43, 43);
+    color: white;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    margin-top: 15px;
+    background-color: #f36d14;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #dd1d1d;
+  }
+
+  footer{
+      background-color: rgb(114, 114, 114);
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+      
+  }
+  
